@@ -1,0 +1,22 @@
+{
+  "name": "fox-game",
+  "version": "1.0.0",
+  "description": "Fox Game",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/panesofglass/project-files-for-fox-game.git"
+  },
+  "author": "Ryan Riley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/panesofglass/project-files-for-fox-game/issues"
+  },
+  "homepage": "https://github.com/panesofglass/project-files-for-fox-game#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
