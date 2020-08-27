@@ -4,7 +4,11 @@
   "description": "Fox Game",
   "scripts": {
     "dev": "parcel src/index.html",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "format": "prettier --ignore-path ./.gitignore --write \"./**/*.{html,json,js,ts,css}\"",
+    "format:check": "prettier --ignore-path ./.gitignore --check \"./**/*.{html,json,js,ts,css}\"",
+    "lint": "eslint --ignore-path ./.gitignore --fix \"./**/*.{js,ts}\"",
+    "lint:check": "eslint --ignore-path ./.gitignore --quiet \"./**/*.{js,ts}\"",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -17,6 +21,11 @@
   },
   "homepage": "https://github.com/panesofglass/project-files-for-fox-game#readme",
   "devDependencies": {
-    "parcel-bundler": "^1.12.4"
+    "eslint": "^7.7.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0",
+    "jest": "^26.4.2",
+    "parcel-bundler": "^1.12.4",
+    "prettier": "^2.1.1"
   }
 }
